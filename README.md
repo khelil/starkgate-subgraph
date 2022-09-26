@@ -49,7 +49,7 @@ type DepositEvent @entity {
 }
 ```
 
-```
+```graphql
 type WithdrawalEvent @entity {
   "uniq ID"
   id: ID!
