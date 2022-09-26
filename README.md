@@ -13,7 +13,7 @@ StarkGate subgraph allow you to query deposits and withdraws on the bridge.
 
 ## Queries
 
-```
+```graphql
 {
   depositEvents(first: 5) {
     id
@@ -32,7 +32,7 @@ StarkGate subgraph allow you to query deposits and withdraws on the bridge.
 
 ## GraphQL Schema
 
-```
+```graphql
 type DepositEvent @entity {
   "uniq ID"
   id: ID!
